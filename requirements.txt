@@ -1,9 +1,4 @@
 streamlit
-joblib
-pandas
 opencv-python
 numpy
-scikit-learn
-tensorflow
-tensorflowjs
 keras

@@ -1,11 +1,6 @@
 import streamlit as st
-from joblib import dump, load
-import pandas as pd
 import numpy as np
 import cv2
-from sklearn.svm import SVC
-import tensorflow as tf
-import tensorflowjs as tfjs
 from keras.models import load_model
 model = load_model("model.h5")
 PAGE_CONFIG = {"page_title":"Skin Cancer Diagnosis","page_icon":"https://cdn.upload.systems/uploads/IXr6V3Az.png","layout":"centered"}
