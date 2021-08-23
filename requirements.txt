@@ -4,3 +4,4 @@ numpy
 keras
 tensorflow-cpu
 h5py
+pathlib
