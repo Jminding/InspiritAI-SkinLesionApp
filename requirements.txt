@@ -3,4 +3,4 @@ opencv-python-headless
 numpy
 keras
 tensorflow-cpu
-pyyaml h5py
+h5py
