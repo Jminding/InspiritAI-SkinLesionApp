@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from keras.models import load_model
 import os
-model = load_model("model.h5")
+model = load_model("./model.h5")
 PAGE_CONFIG = {"page_title":"Skin Cancer Diagnosis","page_icon":"https://cdn.upload.systems/uploads/IXr6V3Az.png","layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
 st.sidebar.title("Skin Cancer Diagnosis with AI and ML")
