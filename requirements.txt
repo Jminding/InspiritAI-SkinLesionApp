@@ -1,9 +1,9 @@
 streamlit
 joblib
 pandas
-cv2
+opencv2
 numpy
-sklearn
+scikit-learn
 tensorflow
 tensorflowjs
 keras
