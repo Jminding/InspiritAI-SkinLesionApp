@@ -3,4 +3,3 @@ opencv-python-headless
 numpy
 keras
 tensorflow-cpu
-os
