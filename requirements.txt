@@ -4,6 +4,6 @@ pandas
 opencv-python
 numpy
 scikit-learn
-tensorflow
+tensorflow-cpu
 tensorflowjs
 keras
