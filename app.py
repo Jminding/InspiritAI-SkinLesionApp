@@ -6,8 +6,7 @@ from pathlib import Path
 import urllib.request
 
 url = 'https://github.com/Jminding/InspiritAI-SkinLesionApp/releases/download/v0.0.1/model.h5'
-filename = url.split('/')[-1]
-model = load_model(urllib.request.urlretrieve(url, filename))
+model = load_model(urllib.request.urlopen(url).read())
 PAGE_CONFIG = {"page_title":"Skin Cancer Diagnosis","page_icon":"https://cdn.upload.systems/uploads/IXr6V3Az.png","layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
 st.sidebar.title("Skin Cancer Diagnosis with AI and ML")
