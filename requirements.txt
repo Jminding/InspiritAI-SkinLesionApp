@@ -5,4 +5,4 @@ keras
 tensorflow-cpu
 h5py
 pathlib
-urllib
+urllib3
